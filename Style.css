@@ -59,7 +59,7 @@ section{
     position: fixed; 
     top: 0; 
     left: 0; 
-    background-color: var(--purple-transparent); 
+    background-color: var(--purple-transparent); /*change*/
     z-index: 999;
 } 
  
@@ -99,7 +99,7 @@ section{
     left: 0;
     width: 100%;
     height: 100vh; 
-    background-color: var(--purple-solid);
+    background-color: var(--purple-solid); /*change*/
     display: flex; 
     flex-direction: column; 
     align-items: center; 
@@ -132,7 +132,7 @@ section{
 .hero{
    width: 100%; 
    height: 100vh;  
-   background: url("./Image/hero_background.jpg") center no-repeat; 
+   background: url("./Image/hero_background.jpg") center no-repeat; /*change*/
    background-size: cover;   
    display: flex; 
    align-items: center; 
@@ -148,7 +148,7 @@ section{
     left: 0;  
     width: inherit; 
     height: inherit;
-    background-color: var(--purple-transparent-alt); 
+    background-color: var(--purple-transparent-alt); /*change*/
     z-index: -1;
 } 
  
@@ -168,7 +168,7 @@ section{
 .subtitle{ 
     font-size: 3.6rem; 
     font-weight: 300; 
-    font-family: 'Courgette', cursive;
+    font-family: 'Courgette', cursive; /*change*/
 } 
  
 .btn{ 
@@ -182,9 +182,9 @@ section{
 } 
  
 .btn-gradient{ 
-    background-image: var(--gradient-color);
+    background-image: var(--gradient-color); /*change*/
 } 
  
 .btn-gradient:hover{ 
-    background-image: var(--gradient-color-alt);
+    background-image: var(--gradient-color-alt); /*change*/
 } 
