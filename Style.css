@@ -244,7 +244,6 @@ section{
     resize: none;
 } 
 
-
 .section-head{ 
     text-align: center; 
     margin-bottom: 5rem;
@@ -319,4 +318,35 @@ section{
  
 .rating{ 
    color: gold; 
+} 
+ 
+.offer{ 
+    background: linear-gradient(to right, rgba(250,158,44,.8), rgba(143,80,251,.8)), 
+    url("/Image/the_paradise_bg.jpg") bottom center no-repeat; 
+    background-size: cover;
+} 
+ 
+.offer-content{ 
+    background-color: #fff; 
+    text-align: center; 
+    padding: 5rem 1rem;  
+    position: relative; 
+    overflow: hidden;
+} 
+ 
+.discount{ 
+    background-color: yellow; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    padding: 1rem;  
+    font-weight: bold;
+    text-transform: uppercase; 
+    outline: 2px solid gold; 
+    outline-offset: .5rem;
+} 
+ 
+.paragraph{ 
+    color: gray; 
+    margin-bottom: 2.5rem;
 }
